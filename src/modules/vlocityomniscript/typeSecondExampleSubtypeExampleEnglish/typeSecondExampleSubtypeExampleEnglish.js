@@ -10,6 +10,7 @@ import tmpl_nds from './typeSecondExampleSubtypeExampleEnglish_nds.html';
  *  IMPORTANT! Generated class DO NOT MODIFY
  */
 export default class typeSecondExampleSubtypeExampleEnglish extends OmniscriptHeader {
+    static shadowSupportMode = "native";
     @track jsonDef = {};
     @track resume = false;
     @api get inline() {

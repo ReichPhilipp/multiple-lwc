@@ -10,7 +10,7 @@ import '@lwc/synthetic-shadow';
  * Here you can import the component(s) that you will export as Web Component.
  * You can import one or more components using the format `namespace/component`.
  */
-import VlocApp from 'vlocityomniscript/typeSecondExampleSubtypeExampleEnglish';
+import VlocApp from 'vlocityomniscript/typeExampleSubtypeExampleEnglish';
 
 /**
  * If your OmniScript support multiple languages, you will need to include the language
@@ -49,8 +49,8 @@ if (isCompatibleBrowser) {
      * This example  uses the component located in `vlocityomniscript/typeExampleSubtypeExampleEnglish`
      * and exports the component by following the LWC naming convention.
      */
-    if (!customElements.get('vlocityomniscript-second-type-example-subtype-example-english')) {
-        customElements.define('vlocityomniscript-second-type-example-subtype-example-english', VlocApp.CustomElementConstructor);
+    if (!customElements.get('vlocityomniscript-type-example-subtype-example-english')) {
+        customElements.define('vlocityomniscript-type-example-subtype-example-english', VlocApp.CustomElementConstructor);
     }
 }
 
